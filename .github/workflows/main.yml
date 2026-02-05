@@ -9,6 +9,11 @@ on:
   schedule:
     - cron: '0 * * * *'
 
+# --- Permissions ---
+# Donne au robot le droit d'écrire dans le repository pour sauvegarder le fichier json
+permissions:
+  contents: write
+
 # Tâches à effectuer
 jobs:
   build:
