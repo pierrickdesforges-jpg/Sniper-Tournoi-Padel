@@ -103,4 +103,5 @@ def test_api():
 
 if __name__ == "__main__":
     test_api()
+
     # input("\nAppuyez sur Entrée pour quitter...") # Mis en commentaire pour l'automatisation
