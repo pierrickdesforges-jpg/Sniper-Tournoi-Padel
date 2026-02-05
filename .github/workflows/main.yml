@@ -5,7 +5,7 @@ name: Vérifier les tournois de Padel
 on:
   # Permet de le lancer manuellement depuis l'onglet Actions
   workflow_dispatch:
-  # Le lance automatiquement toutes les heures
+  # Le lance automatiquement toutes les 5 minutes
   schedule:
     - cron: '*/5 * * * *'
 
